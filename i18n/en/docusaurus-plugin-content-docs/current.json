@@ -1,0 +1,70 @@
+{
+  "version.label": {
+    "message": "Current",
+    "description": "The label for version current"
+  },
+  "sidebar.mainSidebar.category.Серверы": {
+    "message": "Servers",
+    "description": "The label for category 'Серверы' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Плагины": {
+    "message": "Plugins",
+    "description": "The label for category 'Плагины' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Собственные": {
+    "message": "Custom",
+    "description": "The label for category 'Собственные' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Собственные.link.generated-index.title": {
+    "message": "Custom Plugins",
+    "description": "The generated-index page title for category 'Собственные' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Собственные.link.generated-index.description": {
+    "message": "Plugins developed by the Wilderion team",
+    "description": "The generated-index page description for category 'Собственные' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Защита (Hammer)": {
+    "message": "Protection (Hammer)",
+    "description": "The label for category 'Защита (Hammer)' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Комфорт (Qolity)": {
+    "message": "Quality of Life (Qolity)",
+    "description": "The label for category 'Комфорт (Qolity)' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Портреты (Art)": {
+    "message": "Portraits (Art)",
+    "description": "The label for category 'Портреты (Art)' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Система (Nexus)": {
+    "message": "System (Nexus)",
+    "description": "The label for category 'Система (Nexus)' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Сторонние": {
+    "message": "Third-party",
+    "description": "The label for category 'Сторонние' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Сторонние.link.generated-index.title": {
+    "message": "Third-party Plugins",
+    "description": "The generated-index page title for category 'Сторонние' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Сторонние.link.generated-index.description": {
+    "message": "Plugins and mods from other developers",
+    "description": "The generated-index page description for category 'Сторонние' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Датапаки": {
+    "message": "Datapacks",
+    "description": "The label for category 'Датапаки' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Датапаки.link.generated-index.title": {
+    "message": "Datapacks",
+    "description": "The generated-index page title for category 'Датапаки' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Датапаки.link.generated-index.description": {
+    "message": "Datapacks work server-side — you don't need to install anything. All new recipes and mechanics are available automatically when connecting to the server.",
+    "description": "The generated-index page description for category 'Датапаки' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.doc.Bridges": {
+    "message": "Bridges",
+    "description": "The label for the doc item 'Bridges' in sidebar 'mainSidebar', linking to the doc plugins/custom/bridges/bridges"
+  }
+}

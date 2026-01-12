@@ -1,0 +1,11 @@
+{
+  "label": "Third-party",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Third-party plugins",
+    "description": "Plugins and mods from other developers"
+  }
+}

@@ -1,0 +1,324 @@
+/**
+ * Wilderion Wiki - Custom Styles
+ * Цветовая схема: Пламя (оранжевый/янтарный)
+ */
+
+/* Цветовая палитра */
+:root {
+  /* Основные цвета - тёплое пламя */
+  --ifm-color-primary: #e67e22;
+  --ifm-color-primary-dark: #cf711e;
+  --ifm-color-primary-darker: #c46a1c;
+  --ifm-color-primary-darkest: #a25717;
+  --ifm-color-primary-light: #e98b38;
+  --ifm-color-primary-lighter: #eb9243;
+  --ifm-color-primary-lightest: #f0a75f;
+  
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(230, 126, 34, 0.1);
+  
+  /* Шрифты */
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  --ifm-heading-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Скругления */
+  --ifm-global-radius: 8px;
+  --ifm-code-border-radius: 6px;
+}
+
+/* Тёмная тема */
+[data-theme='dark'] {
+  --ifm-color-primary: #f39c12;
+  --ifm-color-primary-dark: #e08e0b;
+  --ifm-color-primary-darker: #d4870a;
+  --ifm-color-primary-darkest: #ae6f08;
+  --ifm-color-primary-light: #f4a62a;
+  --ifm-color-primary-lighter: #f5ab36;
+  --ifm-color-primary-lightest: #f7bc57;
+  
+  --ifm-background-color: #1a1410;
+  --ifm-background-surface-color: #231c16;
+  --ifm-navbar-background-color: #231c16;
+  --ifm-footer-background-color: #1a1410;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(243, 156, 18, 0.2);
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar__title {
+  font-weight: 700;
+}
+
+/* Sidebar */
+.menu__link {
+  border-radius: var(--ifm-global-radius);
+  transition: all 0.2s ease;
+}
+
+.menu__link:hover {
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-darkest);
+}
+
+[data-theme='dark'] .menu__link:hover {
+  background-color: rgba(243, 156, 18, 0.15);
+  color: var(--ifm-color-primary);
+}
+
+.menu__link--active {
+  background-color: var(--ifm-color-primary);
+  color: white !important;
+}
+
+/* Активные категории в светлой теме */
+.menu__list-item-collapsible > .menu__link--active,
+.menu__link--sublist.menu__link--active {
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-darkest) !important;
+}
+
+/* Стиль для раскрытых категорий */
+.menu__list-item-collapsible:hover {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.menu__caret::before {
+  filter: none;
+}
+
+/* Стрелки в сайдбаре - единый серый цвет для тёмной темы */
+[data-theme='dark'] .menu__caret::before,
+[data-theme='dark'] .menu__link--sublist-caret::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%239ca3af' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  filter: none;
+}
+
+[data-theme='dark'] .menu__caret:hover::before,
+[data-theme='dark'] .menu__link--sublist-caret:hover::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f39c12' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+}
+
+/* Исправление для активных родительских элементов */
+.theme-doc-sidebar-menu > .menu__list-item > .menu__link--active {
+  background-color: var(--ifm-color-primary);
+  color: white !important;
+}
+
+/* Категории с подменю - сделать текст читаемым */
+.menu__link--sublist-caret {
+  color: var(--ifm-font-color-base);
+}
+
+.menu__link--sublist-caret:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* Активная категория в светлой теме - тёмный текст на светлом фоне */
+.menu__list-item-collapsible .menu__link--active {
+  background-color: rgba(230, 126, 34, 0.15);
+  color: var(--ifm-color-primary-darkest) !important;
+}
+
+[data-theme='dark'] .menu__list-item-collapsible .menu__link--active {
+  background-color: rgba(243, 156, 18, 0.2);
+  color: var(--ifm-color-primary) !important;
+}
+
+/* Таблицы */
+table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+table th {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  font-weight: 600;
+  padding: 12px 16px;
+}
+
+[data-theme='dark'] table th {
+  background-color: rgba(243, 156, 18, 0.25);
+  color: var(--ifm-color-primary);
+}
+
+table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+table tr:hover td {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+/* Admonitions (блоки info, tip, warning и т.д.) */
+.alert {
+  border-radius: var(--ifm-global-radius);
+  border-left-width: 4px;
+}
+
+/* Код */
+code {
+  background-color: var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-code-border-radius);
+  padding: 2px 6px;
+}
+
+[data-theme='dark'] code {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Блоки кода */
+pre {
+  border-radius: var(--ifm-global-radius);
+}
+
+/* Details/Summary */
+details {
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: var(--ifm-global-radius);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+details summary:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* Изображения */
+article img {
+  border-radius: var(--ifm-global-radius);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  margin: 1rem 0;
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.footer__title {
+  color: var(--ifm-color-primary);
+}
+
+/* Кнопки */
+.button {
+  border-radius: var(--ifm-global-radius);
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+}
+
+/* Анимации */
+.menu__link,
+.navbar__link,
+.button,
+table tr {
+  transition: all 0.2s ease;
+}
+
+/* Сетка серверов на главной */
+.server-grid {
+  margin: 2rem 0;
+}
+
+/* Emoji в заголовках */
+h1, h2, h3, h4, h5, h6 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Markdown таблицы - убираем лишние границы */
+.markdown table {
+  border: none;
+}
+
+.markdown table th,
+.markdown table td {
+  border: none;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Breadcrumbs */
+.breadcrumbs__link {
+  border-radius: var(--ifm-global-radius);
+}
+
+/* TOC (Table of Contents) */
+.table-of-contents__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* Pagination */
+.pagination-nav__link {
+  border-radius: var(--ifm-global-radius);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all 0.2s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+/* Search */
+.DocSearch-Button {
+  border-radius: var(--ifm-global-radius) !important;
+}
+
+/* Эффект свечения для активных элементов */
+[data-theme='dark'] .menu__link--active {
+  box-shadow: 0 0 10px rgba(243, 156, 18, 0.3);
+}
+
+[data-theme='dark'] .button--primary:hover {
+  box-shadow: 0 0 15px rgba(243, 156, 18, 0.4);
+}
+
+/* Градиентный заголовок footer */
+[data-theme='dark'] .footer__title {
+  background: linear-gradient(135deg, #f39c12, #e74c3c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Mobile */
+@media (max-width: 996px) {
+  .navbar__toggle {
+    margin-right: 0.5rem;
+  }
+  
+  table {
+    font-size: 0.9rem;
+  }
+  
+  table th,
+  table td {
+    padding: 8px 12px;
+  }
+}

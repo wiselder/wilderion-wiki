@@ -1,0 +1,50 @@
+{
+  "link.title.Серверы": {
+    "message": "Servers",
+    "description": "The title of the footer links column with title=Серверы in the footer"
+  },
+  "link.title.Сообщество": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Сообщество in the footer"
+  },
+  "link.title.Ресурсы": {
+    "message": "Resources",
+    "description": "The title of the footer links column with title=Ресурсы in the footer"
+  },
+  "link.item.label.Overnight": {
+    "message": "Overnight",
+    "description": "The label of footer link with label=Overnight linking to /docs/servers/overnight"
+  },
+  "link.item.label.Sunrise": {
+    "message": "Sunrise",
+    "description": "The label of footer link with label=Sunrise linking to /docs/servers/sunrise"
+  },
+  "link.item.label.Twilight": {
+    "message": "Twilight",
+    "description": "The label of footer link with label=Twilight linking to /docs/servers/twilight"
+  },
+  "link.item.label.Сайт проекта": {
+    "message": "Project Website",
+    "description": "The label of footer link with label=Сайт проекта linking to https://wilderion.ru"
+  },
+  "link.item.label.Карта Overnight": {
+    "message": "Overnight Map",
+    "description": "The label of footer link with label=Карта Overnight linking to http://overnight.wilderion.ru:8100/"
+  },
+  "copyright": {
+    "message": "© {year} Wilderion Project",
+    "description": "The footer copyright"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.com/invite/S4DGsremCC"
+  },
+  "link.item.label.Telegram": {
+    "message": "Telegram",
+    "description": "The label of footer link with label=Telegram linking to https://t.me/wilderion_project"
+  },
+  "link.item.label.VK": {
+    "message": "VK",
+    "description": "The label of footer link with label=VK linking to https://vk.com/wilderion"
+  }
+}

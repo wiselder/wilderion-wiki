@@ -1,0 +1,11 @@
+{
+  "label": "Сторонние",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Сторонние плагины",
+    "description": "Плагины и моды от других разработчиков"
+  }
+}

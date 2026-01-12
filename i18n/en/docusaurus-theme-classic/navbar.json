@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Wilderion Wiki",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Wilderion Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Сайт": {
+    "message": "Website",
+    "description": "Navbar item with label Сайт"
+  },
+  "item.label.Discord": {
+    "message": "Discord",
+    "description": "Navbar item with label Discord"
+  },
+  "item.label.Telegram": {
+    "message": "Telegram",
+    "description": "Navbar item with label Telegram"
+  }
+}
