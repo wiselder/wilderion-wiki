@@ -23,7 +23,7 @@ description: Классическое ванильное выживание
 | **Общение** | [Чат](../plugins/third-party/chat), [Голос](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
 | **Комфорт** | [Сидения](../plugins/third-party/gsit), [Скины](../plugins/third-party/skin-restorer), [AFK](../plugins/custom/nexus/afk) |
 | **Творчество** | [Портреты](../plugins/custom/art/portraits), [Блоки света](../plugins/custom/qolity/light-blocks), [Рамки](../plugins/custom/qolity/item-frames) |
-| **Баланс** | [Защита новичков](../plugins/custom/hammer/newbie-protection), [Элитры](../plugins/custom/qolity/elytra), [Наковальня](../plugins/custom/qolity/anvil) |
+| **Баланс** | [Защита от гриферства новичков](../plugins/custom/hammer/newbie-protection), [Элитры](../plugins/custom/qolity/elytra), [Наковальня](../plugins/custom/qolity/anvil) |
 | **Безопасность** | [CoreProtect](../plugins/third-party/coreprotect) |
 | **Мир** | [Geophilic](../datapacks/geophilic), [Extended Crafts](../datapacks/extended-crafts), [Карта](../plugins/third-party/bluemap) |
 | **Мобы** | [Пассивные фантомы](../plugins/custom/qolity/mob-tweaks), [Нерф эндерменов](../plugins/custom/qolity/mob-tweaks) |

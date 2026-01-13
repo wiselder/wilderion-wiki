@@ -1,16 +1,16 @@
 ---
 sidebar_position: 1
-title: Newbie Protection
-description: Protection system for new players against griefers
+title: Protection from Newbie Griefing
+description: Protection system from newbie griefing with trial period
 ---
 
-# Newbie Protection System
+# Protection from Newbie Griefing System
 
 :::tip Available on servers
 **Overnight** · **Twilight**
 :::
 
-The server has a **three-level status system** for new players. This allows gradual integration of newcomers into the gaming community while protecting the server from griefers.
+The server has a **three-level status system** with a trial period for new players. This allows gradual integration of newcomers into the gaming community while protecting old players from griefing.
 
 ---
 
@@ -74,7 +74,7 @@ Upon joining, player receives a welcome message with instructions.
 
 ## 🚫 Protection Restrictions
 
-Until player has TRUSTED status, the following rules apply in the protected zone (100 chunk radius from spawn):
+During the trial period (until player has TRUSTED status), the following rules apply in the protected zone (100 chunk radius from spawn), protecting old players:
 
 ### Containers
 ❌ Prohibited to open other players' containers:
@@ -156,10 +156,10 @@ Administrators can use command:
 <details>
 <summary>**Why can't I open a chest?**</summary>
 
-This is griefing protection. You can:
+This is protection from newbie griefing that protects old players. You can:
 - Use public containers
 - Place your own containers
-- Wait 12 hours of playtime
+- Wait 12 hours of playtime (trial period)
 
 </details>
 

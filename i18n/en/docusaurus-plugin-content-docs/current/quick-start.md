@@ -18,19 +18,19 @@ A quick start guide with answers to the most popular questions.
 
 ### How to Enable Survival Mode?
 
-On first join, you'll be in **Adventure** mode. This is protection against griefers.
+On first join, you'll be in **Adventure** mode. This is protection from newbie griefing that protects old players during your trial period.
 
 Write in [Discord](https://discord.com/invite/S4DGsremCC) or [Telegram](https://t.me/wilderion_project) chat asking for access, and we'll grant you permission to play. **Make sure you're on the server at that moment!**
 
 :::tip Automatic Promotion
-You'll automatically get full access after **12 hours** of playtime on the server.
+You'll automatically get full access after **12 hours** of playtime on the server (trial period).
 :::
 
 ---
 
 ## I Can't Use Flint and Steel / Open Others' Chests!
 
-This is normal! This measure was taken to protect against griefers.
+This is normal! This measure was taken to protect from newbie griefing and protects old players during your trial period.
 
 **What you CAN do:**
 - ✅ Place and use **your own** chests
@@ -38,10 +38,10 @@ This is normal! This measure was taken to protect against griefers.
 - ✅ Use public containers at spawn
 
 **You'll get full access:**
-- After **12 hours** of real playtime
+- After **12 hours** of real playtime (trial period)
 - Or by admin decision
 
-More details: [Newbie Protection System](plugins/custom/hammer/newbie-protection)
+More details: [Protection from Newbie Griefing System](plugins/custom/hammer/newbie-protection)
 
 ---
 

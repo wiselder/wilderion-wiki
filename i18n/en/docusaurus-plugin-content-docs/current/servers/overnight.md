@@ -23,7 +23,7 @@ description: Classic vanilla survival
 | **Communication** | [Chat](../plugins/third-party/chat), [Voice](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
 | **Comfort** | [Sitting](../plugins/third-party/gsit), [Skins](../plugins/third-party/skin-restorer), [AFK](../plugins/custom/nexus/afk) |
 | **Creativity** | [Portraits](../plugins/custom/art/portraits), [Light Blocks](../plugins/custom/qolity/light-blocks), [Frames](../plugins/custom/qolity/item-frames) |
-| **Balance** | [Newbie Protection](../plugins/custom/hammer/newbie-protection), [Elytras](../plugins/custom/qolity/elytra), [Anvil](../plugins/custom/qolity/anvil) |
+| **Balance** | [Protection from Newbie Griefing](../plugins/custom/hammer/newbie-protection), [Elytras](../plugins/custom/qolity/elytra), [Anvil](../plugins/custom/qolity/anvil) |
 | **Security** | [CoreProtect](../plugins/third-party/coreprotect) |
 | **World** | [Geophilic](../datapacks/geophilic), [Extended Crafts](../datapacks/extended-crafts), [Map](../plugins/third-party/bluemap) |
 | **Mobs** | [Passive Phantoms](../plugins/custom/qolity/mob-tweaks), [Enderman Nerf](../plugins/custom/qolity/mob-tweaks) |
