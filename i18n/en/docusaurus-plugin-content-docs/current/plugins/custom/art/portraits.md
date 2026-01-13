@@ -45,8 +45,8 @@ Skeleton skull will transform into a head with portrait of specified player! Nam
 ### Usage Examples
 
 ```
-/art source Notch <gold>Notch
-/art source Steve <green>My friend Steve
+/art source Notch Notch
+/art source Steve My friend Steve
 ```
 
 :::info Name Formatting
@@ -62,20 +62,29 @@ Name supports [MiniMessage](https://docs.advntr.dev/minimessage/format.html) for
 Simply specify player nickname (up to 16 characters):
 
 ```
-/art source Notch <yellow>Legend
-/art source Dream <green>Speedrunner
+/art source Notch Legend
+/art source Dream Speedrunner
 ```
 
 ### Custom Textures
 
-For decorative heads you can use texture ID from [minecraft-heads.com](https://minecraft-heads.com/):
+For decorative heads you can use textures from websites:
+- [minecraft-heads.com](https://minecraft-heads.com/)
+- [mcheads.ru](https://mcheads.ru/)
+
+**How to use:**
 
 1. Find the needed head on the website
-2. Copy **Texture ID** (long string)
-3. Use as source:
+2. Copy **MinecraftURL** (link like `http://textures.minecraft.net/texture/...`)
+3. Take the **last part** from URL (after the last `/`)
+4. Use as source:
 
+**Example:**
 ```
-/art source abc123...xyz <red>Decorative head
+MinecraftURL: http://textures.minecraft.net/texture/e143d7008fd6325fd924470995eaa512659b70ec5fa96a3edd366c2537c34b18
+Use: e143d7008fd6325fd924470995eaa512659b70ec5fa96a3edd366c2537c34b18
+
+/art source e143d7008fd6325fd924470995eaa512659b70ec5fa96a3edd366c2537c34b18 Decorative head
 ```
 
 ---
@@ -115,7 +124,7 @@ Yes, the head maintains the direction and rotation of the original skull.
 <details>
 <summary>**What if player doesn't exist?**</summary>
 
-If specified nickname is not found in Mojang database, nothing happens — name tag is not consumed.
+If specified nickname is not found in Mojang database, the head will become a regular Minecraft head. Name tag is still consumed.
 
 </details>
 

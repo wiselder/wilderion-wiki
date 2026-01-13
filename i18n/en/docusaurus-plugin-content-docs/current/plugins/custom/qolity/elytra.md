@@ -12,7 +12,7 @@ The addon restricts elytra usage for new players.
 
 ## ⏰ How it Works?
 
-New players cannot use elytra for the first **48 hours** of playtime.
+New players cannot use elytra for the first **48 hours** of real time.
 
 ### Why?
 
@@ -39,7 +39,7 @@ When trying to use elytra you'll see a message with remaining time until unlock.
 
 ## ✅ After Restriction Removal
 
-After 48 hours of playtime:
+After 48 hours of real time:
 
 - ✈️ Elytra works normally
 - 🚀 Can use fireworks for acceleration
@@ -69,14 +69,14 @@ After 48 hours of playtime:
 <details>
 <summary>**Playtime or real time?**</summary>
 
-**Playtime** — only time spent on the server counts. AFK time may not be counted.
+**Real time** — counts time spent on the server, including AFK time.
 
 </details>
 
 <details>
 <summary>**Can unlock be accelerated?**</summary>
 
-No, restriction is only removed after accumulating necessary playtime.
+No, restriction is only removed after accumulating necessary real time.
 
 </details>
 

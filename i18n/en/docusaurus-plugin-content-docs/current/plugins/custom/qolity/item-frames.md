@@ -46,17 +46,9 @@ Item is locked — clicks won't rotate it anymore. This protects from accidental
 
 Make the frame invisible, leaving only the item!
 
-**How to do:**
-1. Put item in frame
-2. Take **glass pane** in hand
-3. **Sneak (Shift)** and press **RMB** on frame
-
 :::tip Result
 Frame will become invisible — only the item will be visible. Perfect for creating "floating" items in decorations!
 :::
-
-![Invisible frame](/img/overnight/invisible-frame.png)
-*Example of using invisible frames for decoration*
 
 ---
 

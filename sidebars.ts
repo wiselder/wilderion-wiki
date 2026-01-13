@@ -29,15 +29,17 @@ const sidebars: SidebarsConfig = {
             type: 'generated-index',
             title: 'Собственные плагины',
             description: 'Плагины, разработанные командой Wilderion',
+            slug: 'custom',
           },
           items: [
             {
               type: 'category',
-              label: 'Защита (Hammer)',
+              label: 'Hammer',
               collapsed: true,
               link: {
-                type: 'doc',
-                id: 'plugins/custom/hammer/index',
+                type: 'generated-index',
+                title: 'Hammer',
+                description: 'Плагин защиты и управления сервером',
               },
               items: [
                 'plugins/custom/hammer/newbie-protection',
@@ -45,11 +47,12 @@ const sidebars: SidebarsConfig = {
             },
             {
               type: 'category',
-              label: 'Комфорт (Qolity)',
+              label: 'Qolity',
               collapsed: true,
               link: {
-                type: 'doc',
-                id: 'plugins/custom/qolity/index',
+                type: 'generated-index',
+                title: 'Qolity',
+                description: 'Улучшения качества жизни для комфортной игры',
               },
               items: [
                 'plugins/custom/qolity/anvil',
@@ -61,11 +64,12 @@ const sidebars: SidebarsConfig = {
             },
             {
               type: 'category',
-              label: 'Портреты (Art)',
+              label: 'Art',
               collapsed: true,
               link: {
-                type: 'doc',
-                id: 'plugins/custom/art/index',
+                type: 'generated-index',
+                title: 'Art',
+                description: 'Плагин для создания портретов на черепах',
               },
               items: [
                 'plugins/custom/art/portraits',
@@ -73,11 +77,12 @@ const sidebars: SidebarsConfig = {
             },
             {
               type: 'category',
-              label: 'Система (Nexus)',
+              label: 'Nexus',
               collapsed: true,
               link: {
-                type: 'doc',
-                id: 'plugins/custom/nexus/index',
+                type: 'generated-index',
+                title: 'Nexus',
+                description: 'Системные функции сервера',
               },
               items: [
                 'plugins/custom/nexus/afk',
@@ -85,9 +90,18 @@ const sidebars: SidebarsConfig = {
               ],
             },
             {
-              type: 'doc',
-              id: 'plugins/custom/bridges/bridges',
+              type: 'category',
               label: 'Bridges',
+              collapsed: true,
+              link: {
+                type: 'generated-index',
+                title: 'Bridges',
+                description: 'Интеграция чата Minecraft с Discord и Telegram',
+              },
+              items: [
+                'plugins/custom/bridges/chat-integration',
+                'plugins/custom/bridges/commands',
+              ],
             },
           ],
         },
@@ -99,6 +113,7 @@ const sidebars: SidebarsConfig = {
             type: 'generated-index',
             title: 'Сторонние плагины',
             description: 'Плагины и моды от других разработчиков',
+            slug: 'third-party',
           },
           items: [
             'plugins/third-party/chat',
@@ -122,6 +137,7 @@ const sidebars: SidebarsConfig = {
         type: 'generated-index',
         title: 'Датапаки',
         description: 'Датапаки работают на стороне сервера — вам не нужно ничего устанавливать. Все новые рецепты и механики доступны автоматически при подключении к серверу.',
+        slug: 'datapacks',
       },
       items: [
         'datapacks/extended-crafts',

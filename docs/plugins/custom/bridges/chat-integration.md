@@ -1,10 +1,10 @@
 ---
-sidebar_position: 5
-title: Bridges
-description: Интеграция чата Minecraft с Discord и Telegram
+sidebar_position: 1
+title: Интеграция чата
+description: Синхронизация чата между Minecraft, Discord и Telegram
 ---
 
-# Bridges
+# Интеграция чата
 
 :::tip Доступно на серверах
 **Overnight** · **Sunrise** · **Twilight**
@@ -108,13 +108,6 @@ Bridges автоматически обновляет информацию об 
 <summary>**Можно ли отключить синхронизацию?**</summary>
 
 Синхронизация настроена на уровне сервера. Игроки не могут отключить её для себя.
-
-</details>
-
-<details>
-<summary>**Поддерживаются ли команды?**</summary>
-
-Нет, из Discord/Telegram нельзя выполнять игровые команды. Только текстовые сообщения.
 
 </details>
 

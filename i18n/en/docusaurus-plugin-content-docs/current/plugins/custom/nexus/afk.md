@@ -52,27 +52,6 @@ Upon exiting AFK you'll see a message with the time spent in absence mode.
 
 ---
 
-## ⚠️ AFK Kick
-
-:::warning Warning
-On some servers players may be kicked for being AFK too long!
-:::
-
-**Why this is needed:**
-- Freeing slots for active players
-- Reducing server load
-- Fair resource distribution
-
-**How to avoid kick:**
-- Move periodically
-- Don't leave the game unattended for long
-
-:::tip Tip
-Some players may have immunity to AFK-kick. Check the rules on the server page.
-:::
-
----
-
 ## ❓ FAQ
 
 <details>
@@ -89,16 +68,3 @@ Technically yes, but sending a message will automatically take you out of AFK mo
 
 </details>
 
-<details>
-<summary>**How long until I get kicked for AFK?**</summary>
-
-Time depends on server settings. Usually it's 10-30 minutes. Check on the specific server page.
-
-</details>
-
-<details>
-<summary>**Does AFK work during fishing?**</summary>
-
-AFK-fishing usually doesn't protect from kick, as it's considered inactive gameplay.
-
-</details>
