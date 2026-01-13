@@ -27,6 +27,8 @@ description: Classic vanilla survival
 | **Security** | [CoreProtect](../plugins/third-party/coreprotect) |
 | **World** | [Geophilic](../datapacks/geophilic), [Extended Crafts](../datapacks/extended-crafts), [Map](../plugins/third-party/bluemap) |
 | **Mobs** | [Passive Phantoms](../plugins/custom/qolity/mob-tweaks), [Enderman Nerf](../plugins/custom/qolity/mob-tweaks) |
+| **VR** | [Vivecraft](../plugins/third-party/vivecraft) |
+| **Emotes** | [EmoteCraft](../plugins/third-party/emotecraft) |
 
 ---
 

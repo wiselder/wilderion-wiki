@@ -126,6 +126,8 @@ const sidebars: SidebarsConfig = {
             'plugins/third-party/skin-restorer',
             'plugins/third-party/coordinate-offset',
             'plugins/third-party/coreprotect',
+            'plugins/third-party/vivecraft',
+            'plugins/third-party/emotecraft',
           ],
         },
       ],

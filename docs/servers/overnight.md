@@ -27,6 +27,8 @@ description: Классическое ванильное выживание
 | **Безопасность** | [CoreProtect](../plugins/third-party/coreprotect) |
 | **Мир** | [Geophilic](../datapacks/geophilic), [Extended Crafts](../datapacks/extended-crafts), [Карта](../plugins/third-party/bluemap) |
 | **Мобы** | [Пассивные фантомы](../plugins/custom/qolity/mob-tweaks), [Нерф эндерменов](../plugins/custom/qolity/mob-tweaks) |
+| **VR** | [Vivecraft](../plugins/third-party/vivecraft) |
+| **Эмоции** | [EmoteCraft](../plugins/third-party/emotecraft) |
 
 ---
 
