@@ -23,9 +23,9 @@
     "message": "Plugins developed by the Wilderion team",
     "description": "The generated-index page description for category 'Собственные' in sidebar 'mainSidebar'"
   },
-  "sidebar.mainSidebar.category.Защита (Hammer)": {
-    "message": "Protection (Hammer)",
-    "description": "The label for category 'Защита (Hammer)' in sidebar 'mainSidebar'"
+  "sidebar.mainSidebar.category.Доверие (Trust)": {
+    "message": "Trust",
+    "description": "The label for category 'Доверие (Trust)' in sidebar 'mainSidebar'"
   },
   "sidebar.mainSidebar.category.Комфорт (Qolity)": {
     "message": "Quality of Life (Qolity)",

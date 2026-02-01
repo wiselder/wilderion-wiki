@@ -21,7 +21,7 @@ description: Хардкорное выживание в духе старой ш
 |-----------|-------------|
 | **Общение** | [Чат](../plugins/third-party/chat), [Голос](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
 | **Хардкор** | [Скрытые координаты](../plugins/third-party/coordinate-offset), [Ребаланс торговли](../datapacks/trade-rebalance) |
-| **Баланс** | [Защита от гриферства новичков](../plugins/custom/hammer/newbie-protection) |
+| **Баланс** | [Защита от гриферства новичков](../plugins/custom/trust/newbie-protection) |
 | **Безопасность** | [CoreProtect](../plugins/third-party/coreprotect) |
 | **Мир** | [Geophilic](../datapacks/geophilic) |
 | **Декорации** | [Портреты](../plugins/custom/art/portraits) |

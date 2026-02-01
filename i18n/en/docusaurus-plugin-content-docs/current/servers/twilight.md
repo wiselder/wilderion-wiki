@@ -21,7 +21,7 @@ description: Hardcore survival in old-school spirit
 |-----------|-------------|
 | **Communication** | [Chat](../plugins/third-party/chat), [Voice](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
 | **Hardcore** | [Hidden Coordinates](../plugins/third-party/coordinate-offset), [Trade Rebalance](../datapacks/trade-rebalance) |
-| **Balance** | [Protection from Newbie Griefing](../plugins/custom/hammer/newbie-protection) |
+| **Balance** | [Protection from Newbie Griefing](../plugins/custom/trust/newbie-protection) |
 | **Security** | [CoreProtect](../plugins/third-party/coreprotect) |
 | **World** | [Geophilic](../datapacks/geophilic) |
 | **Decorations** | [Portraits](../plugins/custom/art/portraits) |

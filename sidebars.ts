@@ -34,15 +34,15 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'category',
-              label: 'Hammer',
+              label: 'Доверие (Trust)',
               collapsed: true,
               link: {
                 type: 'generated-index',
-                title: 'Hammer',
-                description: 'Плагин защиты и управления сервером',
+                title: 'Trust',
+                description: 'Защита от гриферства новичков и уровни доверия',
               },
               items: [
-                'plugins/custom/hammer/newbie-protection',
+                'plugins/custom/trust/newbie-protection',
               ],
             },
             {

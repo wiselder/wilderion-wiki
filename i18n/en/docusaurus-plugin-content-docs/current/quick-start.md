@@ -41,7 +41,7 @@ This is normal! This measure was taken to protect from newbie griefing and prote
 - After **12 hours** of real playtime (trial period)
 - Or by admin decision
 
-More details: [Protection from Newbie Griefing System](plugins/custom/hammer/newbie-protection)
+More details: [Protection from Newbie Griefing System](plugins/custom/trust/newbie-protection)
 
 ---
 
