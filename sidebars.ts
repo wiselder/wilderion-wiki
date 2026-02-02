@@ -103,6 +103,19 @@ const sidebars: SidebarsConfig = {
                 'plugins/custom/bridges/commands',
               ],
             },
+            {
+              type: 'category',
+              label: 'Hammer',
+              collapsed: true,
+              link: {
+                type: 'generated-index',
+                title: 'Hammer',
+                description: 'Ограничения для игроков',
+              },
+              items: [
+                'plugins/custom/hammer/hammer',
+              ],
+            },
           ],
         },
         {
