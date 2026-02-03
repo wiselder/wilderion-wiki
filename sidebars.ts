@@ -34,7 +34,7 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: 'category',
-              label: 'Доверие (Trust)',
+              label: 'Trust',
               collapsed: true,
               link: {
                 type: 'generated-index',
@@ -42,7 +42,7 @@ const sidebars: SidebarsConfig = {
                 description: 'Защита от гриферства новичков и уровни доверия',
               },
               items: [
-                'plugins/custom/trust/newbie-protection',
+                'plugins/custom/trust/trust',
               ],
             },
             {

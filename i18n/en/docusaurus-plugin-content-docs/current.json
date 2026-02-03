@@ -23,21 +23,21 @@
     "message": "Plugins developed by the Wilderion team",
     "description": "The generated-index page description for category 'Собственные' in sidebar 'mainSidebar'"
   },
-  "sidebar.mainSidebar.category.Доверие (Trust)": {
+  "sidebar.mainSidebar.category.Trust": {
     "message": "Trust",
-    "description": "The label for category 'Доверие (Trust)' in sidebar 'mainSidebar'"
+    "description": "The label for category 'Trust' in sidebar 'mainSidebar'"
   },
-  "sidebar.mainSidebar.category.Комфорт (Qolity)": {
+  "sidebar.mainSidebar.category.Qolity": {
     "message": "Quality of Life (Qolity)",
-    "description": "The label for category 'Комфорт (Qolity)' in sidebar 'mainSidebar'"
+    "description": "The label for category 'Qolity' in sidebar 'mainSidebar'"
   },
-  "sidebar.mainSidebar.category.Портреты (Art)": {
+  "sidebar.mainSidebar.category.Art": {
     "message": "Portraits (Art)",
-    "description": "The label for category 'Портреты (Art)' in sidebar 'mainSidebar'"
+    "description": "The label for category 'Art' in sidebar 'mainSidebar'"
   },
-  "sidebar.mainSidebar.category.Система (Nexus)": {
+  "sidebar.mainSidebar.category.Nexus": {
     "message": "System (Nexus)",
-    "description": "The label for category 'Система (Nexus)' in sidebar 'mainSidebar'"
+    "description": "The label for category 'Nexus' in sidebar 'mainSidebar'"
   },
   "sidebar.mainSidebar.category.Сторонние": {
     "message": "Third-party",
