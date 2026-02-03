@@ -20,7 +20,7 @@ description: Classic vanilla survival
 
 | Category | Capabilities |
 |-----------|-------------|
-| **Communication** | [Chat](../plugins/third-party/chat), [Voice](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
+| **Communication** | [Chat (Babble)](../plugins/custom/babble/babble), [Voice](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
 | **Comfort** | [Sitting](../plugins/third-party/gsit), [Skins](../plugins/third-party/skin-restorer), [AFK](../plugins/custom/nexus/afk) |
 | **Creativity** | [Portraits](../plugins/custom/art/portraits), [Light Blocks](../plugins/custom/qolity/light-blocks), [Frames](../plugins/custom/qolity/item-frames) |
 | **Balance** | [Protection from Newbie Griefing](../plugins/custom/trust/newbie-protection), [Elytras](../plugins/custom/qolity/elytra), [Anvil](../plugins/custom/qolity/anvil) |
@@ -78,13 +78,13 @@ More details: [Datapacks](../datapacks/extended-crafts)
 
 ### Plugins
 
-#### Carbon Chat
+#### Babble
 
-Chat formatting plugin with local and global channels.
+Custom chat plugin with channels, formatting, direct messages, and more.
 
-More details: [Chat (Carbon)](../plugins/third-party/chat)
+More details: [Babble](../plugins/custom/babble/babble)
 
-![Carbon Chat](/img/overnight/chat.png)
+![Chat](/img/overnight/chat.png)
 
 #### GSit (/sit and /lay)
 

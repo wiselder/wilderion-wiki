@@ -116,6 +116,19 @@ const sidebars: SidebarsConfig = {
                 'plugins/custom/hammer/hammer',
               ],
             },
+            {
+              type: 'category',
+              label: 'Babble',
+              collapsed: true,
+              link: {
+                type: 'generated-index',
+                title: 'Babble',
+                description: 'Система чата с каналами и форматированием',
+              },
+              items: [
+                'plugins/custom/babble/babble',
+              ],
+            },
           ],
         },
         {
@@ -129,7 +142,6 @@ const sidebars: SidebarsConfig = {
             slug: 'third-party',
           },
           items: [
-            'plugins/third-party/chat',
             'plugins/third-party/voice-chat',
             'plugins/third-party/axiom',
             'plugins/third-party/plots',
