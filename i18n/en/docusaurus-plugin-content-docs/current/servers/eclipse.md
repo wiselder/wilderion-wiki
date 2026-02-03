@@ -15,6 +15,7 @@ This server is under active development. Follow the news on our social networks!
 **Eclipse** is a server for those seeking true hardcore!
 
 **Planned features:**
+- Chat ([Babble](../plugins/custom/babble/babble))
 - Complex mechanics
 - Dangerous mobs
 - Farm restrictions

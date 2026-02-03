@@ -19,7 +19,7 @@ description: Creative server with Axiom support
 
 | Category | Capabilities |
 |-----------|-------------|
-| **Communication** | [Chat (Babble)](../plugins/custom/babble/babble), [Voice](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
+| **Communication** | Chat ([Babble](../plugins/custom/babble/babble)), [Voice](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
 | **Building** | [Axiom](../plugins/third-party/axiom), [Plots](../plugins/third-party/plots) |
 
 ---

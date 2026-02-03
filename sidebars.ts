@@ -123,7 +123,7 @@ const sidebars: SidebarsConfig = {
               link: {
                 type: 'generated-index',
                 title: 'Babble',
-                description: 'Система чата с каналами и форматированием',
+                description: 'Чат, каналы, личные сообщения и форматирование',
               },
               items: [
                 'plugins/custom/babble/babble',

@@ -19,7 +19,7 @@ description: Хардкорное выживание в духе старой ш
 
 | Категория | Возможности |
 |-----------|-------------|
-| **Общение** | [Чат (Babble)](../plugins/custom/babble/babble), [Голос](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
+| **Общение** | Чат ([Babble](../plugins/custom/babble/babble)), [Голос](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
 | **Хардкор** | [Скрытые координаты](../plugins/third-party/coordinate-offset), [Ребаланс торговли](../datapacks/trade-rebalance) |
 | **Баланс** | [Защита от гриферства новичков](../plugins/custom/trust/newbie-protection) |
 | **Безопасность** | [CoreProtect](../plugins/third-party/coreprotect) |

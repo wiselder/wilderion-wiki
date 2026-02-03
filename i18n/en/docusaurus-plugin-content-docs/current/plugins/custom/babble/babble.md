@@ -1,89 +1,91 @@
 ---
 sidebar_position: 1
 title: Babble
-description: Chat system on Wilderion servers
+description: Chat, channels, private messages and formatting
 ---
 
-# Chat System (Babble)
+# Chat (Babble)
 
 :::tip Available on servers
 **Overnight** · **Sunrise** · **Twilight**
 :::
 
-Wilderion servers use the custom **Babble** plugin — a chat system with channels, formatting, direct messages, and additional features.
+**Babble** is a chat plugin by Wilderion. It handles chat channels (local, per-world, global), private messages, text formatting (markdown, dice, items), links, mentions, ignore list, and moderation (word filter, broadcasts, PM spy).
 
 ---
 
-## 💬 Main Features
+## Chat channels
 
-### Chat Channels
+Messages are sent to your **current channel**. Channels are configured by staff; typical types:
 
-The server has chat channels (local, global, and others — exact list depends on server settings). Switch default channel and send to a specific channel via commands and prefixes (e.g. `.` for local, `!` for global).
+| Type | Description |
+|------|-------------|
+| **Local** | Only players within radius (e.g. 100 blocks) see the message |
+| **World** | Everyone in the current world sees it |
+| **Global** | Everyone on the server sees it |
 
-```
-/channel <channel>   — switch default channel
-```
+**Switch channel:** `/channel <id>` — e.g. `/channel local` or `/channel global`. Channel aliases are set in the server config (e.g. `/l` for local, `/g` for global).
 
-:::tip Tip
-Use local chat to talk with neighbors to avoid cluttering the global chat!
-:::
-
-### Show Item in Chat
-
-Share an item from your hand:
-
-1. Take an item in your hand
-2. Write in chat: `<item>`
-3. Other players will see the item with ability to hover and view characteristics
-
-### Formatting
-
-Chat supports formatting (MiniMessage and Markdown) if you have the right permissions:
-
-- **Bold**, *italic*, ~~strikethrough~~, underline
-- Colors and styles
-- Dice rolls: `<d:20>`, `<d:6:2>`, `<coin>`
-
-Exact capabilities depend on your server permissions.
-
-### Mentions
-
-You can mention players by nickname — they will get a notification. Just type the nickname in your message.
-
-### Direct Messages
-
-- `/m <player> <message>` — send a direct message
-- `/r <message>` — reply to the last direct message
-
-### Ignore
-
-- `/ignore add <player>` — add to ignore list
-- `/ignore remove <player>` — remove from ignore list
-- `/ignore list` — list ignored players
+**Send to a channel without switching:** add the message after the id: `/channel <id> <message>` or use the channel alias, e.g. `/g Hello everyone`.
 
 ---
 
-## 📋 Main Commands
+## Private messages
 
-| Command | Description |
-|---------|----------|
-| `/channel <channel>` | Switch chat channel |
-| `/m <player> <message>` | Direct message |
-| `/r <message>` | Reply in DMs |
-| `/ignore add/remove/list` | Ignore players |
-| `<item>` in message | Show item from hand |
-| `/babble help` | Chat help |
+- **Send a private message:** `/tell <player> <message>` (aliases: `/w`, `/msg`, `/whisper`, `/write`, `/message`).
+- **Reply to last sender:** `/r <message>` (or `/reply`).
+- **Message to console (player):** `/mind <message>` — your message is sent to staff in the server console.
+- **Message from console to player:** in the server console: `/deep <player> <message>`.
 
 ---
 
-## 🔗 Links and Formatting
+## Formatting
 
-Links work in chat: whitelisted domains (e.g. youtube.com, discord.gg) become clickable automatically. The list of allowed domains is configured by admins.
+Formatting options depend on permissions set on the server:
 
-Text formatting (**bold**, *italic*, etc.) and item insertion are available with the right permissions.
+- **MiniMessage styles** — standard text formatting tags.
+- **Markdown in messages** — e.g. `**bold**`, `*italic*`, `~~strikethrough~~`, `__underline__`, `||obfuscated||`.
+- **Dice and coin** — in text: `<d:20>` (one d20), `<d:6:2>` (two d6), `<coin>` (coin flip). The result is inserted into the message.
+- **Items in chat** — item tags from config (e.g. item in a specific slot). Format and slots are set by staff.
+
+If something does not work — you may not have the matching permission on the server.
 
 ---
 
-## 📸 Screenshots
+## Links
 
-![Chat](/img/overnight/chat.png)
+Links in messages are handled automatically: allowed domains (whitelist) become clickable. The domain list is configured on the server. Players with whitelist bypass permission can post links to any domain.
+
+---
+
+## Mentions and sounds
+
+If a player’s name appears in a message, they may hear a **mention sound**. Receiving a private message can also play a sound. Sound settings are configured on the server.
+
+---
+
+## Ignore
+
+To hide messages from a specific player in chat and not receive their private messages:
+
+- **Add to ignore list:** `/ignore <player>`
+- **List ignored players:** `/ignore list`
+- **Remove from ignore list:** `/ignore remove <player>`
+
+---
+
+## Private message spy
+
+The **`/spy`** command toggles a mode where you see other players’ private messages. Available only with the matching permission (usually for staff).
+
+---
+
+## Broadcasts
+
+The **`/broadcast <type> <message>`** command (aliases: `/bc`, `/announce`) sends an announcement to chat. Broadcast types (e.g. “important”, “news”) and their formatting are configured on the server. Requires permission to use the command.
+
+---
+
+## Filter
+
+The plugin can filter unwanted words in messages: block or replace text, add warnings, and apply punishments per server rules. Players with filter bypass permission are not checked.

@@ -19,7 +19,7 @@ description: Hardcore survival in old-school spirit
 
 | Category | Capabilities |
 |-----------|-------------|
-| **Communication** | [Chat (Babble)](../plugins/custom/babble/babble), [Voice](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
+| **Communication** | Chat ([Babble](../plugins/custom/babble/babble)), [Voice](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
 | **Hardcore** | [Hidden Coordinates](../plugins/third-party/coordinate-offset), [Trade Rebalance](../datapacks/trade-rebalance) |
 | **Balance** | [Protection from Newbie Griefing](../plugins/custom/trust/newbie-protection) |
 | **Security** | [CoreProtect](../plugins/third-party/coreprotect) |

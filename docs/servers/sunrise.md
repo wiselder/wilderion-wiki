@@ -19,7 +19,7 @@ description: Креативный сервер с поддержкой Axiom
 
 | Категория | Возможности |
 |-----------|-------------|
-| **Общение** | [Чат (Babble)](../plugins/custom/babble/babble), [Голос](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
+| **Общение** | Чат ([Babble](../plugins/custom/babble/babble)), [Голос](../plugins/third-party/voice-chat), [TAB](../plugins/third-party/tab) |
 | **Строительство** | [Axiom](../plugins/third-party/axiom), [Плоты](../plugins/third-party/plots) |
 
 ---
