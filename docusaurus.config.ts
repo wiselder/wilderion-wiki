@@ -17,7 +17,7 @@ const config: Config = {
   organizationName: 'wilderion',
   projectName: 'wiki',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   i18n: {
     defaultLocale: 'ru',

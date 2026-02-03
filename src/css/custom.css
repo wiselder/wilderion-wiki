@@ -3,19 +3,25 @@
  * Цветовая схема: Пламя (оранжевый/янтарный)
  */
 
-/* Цветовая палитра */
+/* Цветовая палитра - тёплые тона #dd8f61 #d4645a #f0c088 */
 :root {
-  /* Основные цвета - тёплое пламя */
-  --ifm-color-primary: #e67e22;
-  --ifm-color-primary-dark: #cf711e;
-  --ifm-color-primary-darker: #c46a1c;
-  --ifm-color-primary-darkest: #a25717;
-  --ifm-color-primary-light: #e98b38;
-  --ifm-color-primary-lighter: #eb9243;
-  --ifm-color-primary-lightest: #f0a75f;
+  /* Основные цвета - тёплый персик/янтарь */
+  --ifm-color-primary: #dd8f61;
+  --ifm-color-primary-dark: #d17d4d;
+  --ifm-color-primary-darker: #c67343;
+  --ifm-color-primary-darkest: #a35f36;
+  --ifm-color-primary-light: #e5a173;
+  --ifm-color-primary-lighter: #ebb385;
+  --ifm-color-primary-lightest: #f0c088;
   
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(230, 126, 34, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(221, 143, 97, 0.12);
+  
+  /* Светлая тема - лёгкий тёплый фон */
+  --ifm-background-color: #fdfbf9;
+  --ifm-background-surface-color: #faf7f4;
+  --ifm-navbar-background-color: #faf7f4;
+  --ifm-footer-background-color: #f5f1ec;
   
   /* Шрифты */
   --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
@@ -26,22 +32,22 @@
   --ifm-code-border-radius: 6px;
 }
 
-/* Тёмная тема */
+/* Тёмная тема - палитра #33323d #dd8f61 #d4645a #f0c088 */
 [data-theme='dark'] {
-  --ifm-color-primary: #f39c12;
-  --ifm-color-primary-dark: #e08e0b;
-  --ifm-color-primary-darker: #d4870a;
-  --ifm-color-primary-darkest: #ae6f08;
-  --ifm-color-primary-light: #f4a62a;
-  --ifm-color-primary-lighter: #f5ab36;
-  --ifm-color-primary-lightest: #f7bc57;
+  --ifm-color-primary: #dd8f61;
+  --ifm-color-primary-dark: #d17d4d;
+  --ifm-color-primary-darker: #c67343;
+  --ifm-color-primary-darkest: #a35f36;
+  --ifm-color-primary-light: #e5a173;
+  --ifm-color-primary-lighter: #ebb385;
+  --ifm-color-primary-lightest: #f0c088;
   
-  --ifm-background-color: #1a1410;
-  --ifm-background-surface-color: #231c16;
-  --ifm-navbar-background-color: #231c16;
-  --ifm-footer-background-color: #1a1410;
+  --ifm-background-color: #33323d;
+  --ifm-background-surface-color: #3d3c48;
+  --ifm-navbar-background-color: #33323d;
+  --ifm-footer-background-color: #33323d;
   
-  --docusaurus-highlighted-code-line-bg: rgba(243, 156, 18, 0.2);
+  --docusaurus-highlighted-code-line-bg: rgba(221, 143, 97, 0.2);
 }
 
 /* Navbar */
@@ -65,7 +71,7 @@
 }
 
 [data-theme='dark'] .menu__link:hover {
-  background-color: rgba(243, 156, 18, 0.15);
+  background-color: rgba(221, 143, 97, 0.15);
   color: var(--ifm-color-primary);
 }
 
@@ -99,7 +105,7 @@
 
 [data-theme='dark'] .menu__caret:hover::before,
 [data-theme='dark'] .menu__link--sublist-caret:hover::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f39c12' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23dd8f61' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
 }
 
 /* Исправление для активных родительских элементов */
@@ -119,12 +125,12 @@
 
 /* Активная категория в светлой теме - тёмный текст на светлом фоне */
 .menu__list-item-collapsible .menu__link--active {
-  background-color: rgba(230, 126, 34, 0.15);
+  background-color: rgba(221, 143, 97, 0.18);
   color: var(--ifm-color-primary-darkest) !important;
 }
 
 [data-theme='dark'] .menu__list-item-collapsible .menu__link--active {
-  background-color: rgba(243, 156, 18, 0.2);
+  background-color: rgba(221, 143, 97, 0.2);
   color: var(--ifm-color-primary) !important;
 }
 
@@ -144,8 +150,8 @@ table th {
 }
 
 [data-theme='dark'] table th {
-  background-color: rgba(243, 156, 18, 0.25);
-  color: var(--ifm-color-primary);
+  background-color: rgba(212, 100, 90, 0.3);
+  color: var(--ifm-color-primary-lightest);
 }
 
 table td {
@@ -171,7 +177,8 @@ code {
 }
 
 [data-theme='dark'] code {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(51, 50, 61, 0.8);
+  color: #f0c088;
 }
 
 /* Блоки кода */
@@ -292,16 +299,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Эффект свечения для активных элементов */
 [data-theme='dark'] .menu__link--active {
-  box-shadow: 0 0 10px rgba(243, 156, 18, 0.3);
+  box-shadow: 0 0 10px rgba(221, 143, 97, 0.3);
 }
 
 [data-theme='dark'] .button--primary:hover {
-  box-shadow: 0 0 15px rgba(243, 156, 18, 0.4);
+  box-shadow: 0 0 15px rgba(221, 143, 97, 0.4);
 }
 
 /* Градиентный заголовок footer */
 [data-theme='dark'] .footer__title {
-  background: linear-gradient(135deg, #f39c12, #e74c3c);
+  background: linear-gradient(135deg, #dd8f61, #d4645a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
