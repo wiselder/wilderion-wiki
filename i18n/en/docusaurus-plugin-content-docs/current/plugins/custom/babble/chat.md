@@ -39,6 +39,23 @@ Messages are sent to your **current channel**. Channels are configured by staff;
 
 ---
 
+## Chat nickname
+
+You can set a **display nickname** in chat (separate from your Mojang / Microsoft account name):
+
+- `/nick <nickname>` — set your display nickname;
+- `/nick reset` — reset to your account name.
+
+Nickname rules:
+
+- length from **3** to **20** characters;
+- only **letters**, **digits**, **spaces**, and **underscores** (`_`) are allowed;
+- MiniMessage formatting support may be enabled/disabled by server staff.
+
+If the nickname is rejected, you will see a chat message explaining the reason (empty nickname, forbidden characters, invalid format).
+
+---
+
 ## Formatting
 
 Formatting options depend on permissions set on the server:
